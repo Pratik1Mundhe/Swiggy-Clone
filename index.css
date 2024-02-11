@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.logo{
+    width: 80px;
+    border-radius: 80px;
+    
+}
+#root{
+    background-color: rgb(255, 255, 255);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    border: 2px solid black;
+    margin: 1px;
+    align-items: center;
+    background: linear-gradient(90deg,rgb(201, 149, 250),rgb(255, 195, 111));
+}
+
+li{
+    list-style-type: none;
+    margin: 8px;
+}
+
+.navbar{
+    display: flex;
+    padding: 20px;
+}
+
+.card{
+    box-shadow: 0 5px 5px 0 gray;
+    margin: 30px;
+    padding: 0px;
+    width: 250px;
+    height: 260px;
+    text-overflow: ellipsis;
+    background-color: rgb(253, 236, 181);
+    height: fit-content;
+}
+
+
+.card > img {
+    width: 100%;
+    
+}
+
+.card > h4 , .card > h2 , .card > h3 {
+    padding: 5px;
+
+}
+
+.card > h2{
+    color: rgb(106, 16, 250);
+}
+
+
+.card > h3  {
+    font-weight: lighter;
+    font-size: medium;
+
+}
+
+.card > h4 {
+    color: gray;
+    font-weight: 100;
+}
+
+.container{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.search-container{
+    margin: 20px 0 0 20px;
+    position: absolute;
+    left: calc(100% - 270px);
+    top: 65px;
+}
+
+.search-input{
+    height: 30px;
+    padding: 5px;
+}
+
+.btn{
+    position: relative;
+    height: 30px;
+    top: 2px;
+    margin: 2px;
+    width: 30px;
+    border-radius: 20px;
+    border: 1px gray solid;
+    background-color: white;
+}
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+.shimmer{
+    box-shadow: 0 5px 5px 0 gray;
+    margin: 30px;
+    padding: 0px;
+    width: 250px;
+    height: 240px;
+}
+
+.shimmer > img{
+        width: 250px;
+        height: 150px;
+        background-color: rgb(198, 195, 195);
+
+    }
+    
+    .shimmer > h2 {
+        width: 150px;
+        height: 10px;
+        background-color: rgb(182, 179, 179);
+        margin: 4px 4px 4px 0;
+}
+
+.shimmer > h3 {
+    width: 110px;
+    height: 10px;
+    background-color: rgb(176, 172, 172);
+    margin: 4px 4px 4px 0;
+}
+.shimmer > h4 {
+    width: 70px;
+    height: 10px;
+    background-color: rgb(179, 178, 178);
+    margin: 4px 4px 4px 0;
+}
+
+.header > button {
+    height: 80px;
+    background: transparent;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    font-weight: bold;
+}
+
+.restaurant-list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.border{
+    border: solid black 1px;
+    padding: 10px;
+    margin: 10px;   
+}
